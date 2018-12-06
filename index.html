@@ -79,7 +79,11 @@
         <div class="container">
             <div class="intro-text">
                 <div class="intro-lead-in">Welcome To Sai's World</div>
-                <div class="intro-heading">Click the big fat yellow button below to know more about me</div>
+                <div class="intro-heading">
+              <span> I am <span id="typewriter"></span>
+          </div>
+
+               
                 <a href="#services" class="page-scroll btn btn-xl">Know More</a>
             </div>
         </div>
@@ -590,9 +594,36 @@
             </div>
         </div>
     </div>
+
+	
  -->
+<script src="https://unpkg.com/typewriter-effect/dist/core.js"></script>
+ 	<script type="text/javascript">
+ 	const instance = new Typewriter('#typewriter', {
+      loop: true,
+    });
+    instance.typeString("a huge fan of Batman")
+      .pauseFor(700)
+      .deleteAll(45)
+      .typeString('a UI/UX designer')
+      .pauseFor(700)
+      .deleteAll(45)
+       .typeString('a FIFA Gamer')
+      .pauseFor(700)
+      .deleteAll(45)
+       .typeString('a Lazy guy')
+      .pauseFor(700)
+      .deleteAll(45)
+       .typeString('a Real Madrid supporter')
+      .pauseFor(700)
+      .deleteAll(45)
+      .start();
+
+ 	</script>
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
+
+
 
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
@@ -606,6 +637,9 @@
 
     <!-- Theme JavaScript -->
     <script src="js/agency.min.js"></script>
+
+
+     
 
 </body>
 
